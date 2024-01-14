@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yegor Tkachenko</title>
+    <meta name="description" content="Yegor Tkachenko's personal website showcasing research in machine learning, publications, and projects.">
+    <meta name="keywords" content="Yegor Tkachenko, Machine Learning, Data Science, Researcher">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond|Cormorant+Garamond">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&family=Gothic+A1:wght@100&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123289759-3"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-123289759-3');
+	</script>
+</head>
+
+
+<body>
+
+    <header>
+        <img src="assets/media/yegor.jpeg" alt="Yegor Tkachenko" style="width:300px"/>
+        <h1 style="color: #BC0E1C">Yegor Tkachenko</h1>
+        <nav>
+            <!-- Social Media & Contact Icons -->
+            <a href="mailto:yegor.tkachenko@columbia.edu" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+            <a href="https://www.linkedin.com/in/yegortkachenko/" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://twitter.com/yegortk" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+            <a href="https://scholar.google.com/citations?hl=en&user=8cApqA8AAAAJ&view_op=list_works&sortby=pubdate" aria-label="Google Scholar">Google Scholar</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <div class="item noborder">
+                <div class="item-details">
+                <p style="margin-bottom: 15px;">My background is in applied machine learning research — including deep learning, reinforcement learning, convex optimization, and recommender systems / personalization. My primary interest is in the design of robust, scalable decision making systems. In my free time, I enjoy coding ML algorithms and web apps in Python and Julia.</p>
+
+                <p>I obtained my PhD in Computational Marketing from Columbia Business School (2022), co-advised by Prof. Asim Ansari and Prof. Kamel Jedidi. I hold an MS in Operations Research (MS&E) from Stanford University (2016) and a BS in International Business from Taras Shevchenko University (2012). While at Stanford, I worked as a research assistant at Stanford Intelligent Systems Laboratory (<a href="https://sisl.stanford.edu/alumni/">SISL</a>) of Aeronautics and Astronautics Department, under Prof. Mykel J. Kochenderfer, doing research on deep reinforcement learning. Prior to that, in 2013-2014, I spent a year working for BlackRock Global Client Insights team.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="teaching">
+            <h2>Teaching</h2>
+            <div class="item">
+            	<div class="item-details">
+                	<h3><a href="https://courses.business.columbia.edu/B9661">Python Programming for Data Science</a></h3>
+                	<p class='authors'>Adjunct Assistant Professor of Business</p>
+                	<p class='authors'>Columbia Business School</p>
+            	</div>
+                <img src="assets/media/lecture.jpeg" alt="Lecturing">
+        	</div>
+        </section>
+
+        <section id="papers">
+            <h2>Papers</h2>
+
+            <div class="item ">
+            	<div class="item-details">
+                	<h3><a href="https://www.nature.com/articles/s41598-023-42054-9">A Megastudy on the Predictability of Personal Information From Facial Images: Disentangling Demographic and Non-Demographic Signals</a></h3>
+                	<p class='authors'>Yegor Tkachenko, Kamel Jedidi.&nbsp;&nbsp; Scientific Reports by Nature 2023</p>
+                	<p><a href="https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-023-42054-9/MediaObjects/41598_2023_42054_MOESM1_ESM.pdf">Supplementary Information</a> | <a href="https://github.com/computationalmarketing/facial-analysis-megastudy">Code & Data</a></p>
+                	<p>(Older version is available on <a href="https://ssrn.com/abstract=3616470">SSRN</a>)</p>
+            	</div>
+            	<img src="assets/media/paper_megastudy1.jpg" alt="Pixel luminosity effect across variables">
+        	</div>
+
+            <div class="item ">
+            	<div class="item-details">
+                	<h3><a href="https://marketing.wharton.upenn.edu/wp-content/uploads/2022/10/Tkachenko-Yegor-JMP-Paper.pdf">Reining in Long Consumer Questionnaires with Self-Supervised Deep Reinforcement Learning</a></h3>
+                	<p class='authors'>Yegor Tkachenko, Kamel Jedidi, Asim Ansari.&nbsp;&nbsp; Working Paper 2022</p>
+            	</div>
+            	<img src="assets/media/paper_compressing_surveys.png" alt="Question ranking optimization objective">
+        	</div>
+
+        	<div class="item ">
+            	<div class="item-details">
+                	<h3><a href="https://arxiv.org/abs/2202.07088">Scaling up Ranking under Constraints for Live Recommendations by Replacing Optimization with Prediction</a></h3>
+                	<p class='authors'>Yegor Tkachenko, Wassim Dhaouadi, Kamel Jedidi.&nbsp;&nbsp; arXiv.org 2022</p>
+                	<p><a href="https://github.com/computationalmarketing/scalable_ranking_under_constraints">Code</a> | <a href="https://business.columbia.edu/sites/default/files-efs/imce-uploads/Bernstein%20Center/tkachenko-brief-final%20v2.pdf">Research Brief</a> | <a href="https://venturebeat.com/ai/it-just-got-easier-for-content-platforms-to-use-more-ethical-recommender-algorithms/">VentureBeat Piece</a></p>
+            	</div>
+            	<img src="assets/media/paper_scalable_ranking.png" alt="Fast constrained ranking results">
+        	</div>
+
+        	<div class="item">
+            	<div class="item-details">
+                	<h3><a href="https://ieeexplore.ieee.org/document/7796934/">Customer Simulation for Direct Marketing Experiments</a></h3>
+                	<p class='authors'>Yegor Tkachenko, Mykel J. Kochenderfer, Krzysztof Kluza.&nbsp;&nbsp; IEEE DSAA 2016</p>
+                	<p><a href="https://github.com/sisl/CustomerSim">Code</a></p>
+            	</div>
+            	<img src="assets/media/paper_customer_simulation.png" alt="Bayes net for initial data snapshot generation">
+        	</div>
+
+        	<div class="item">
+            	<div class="item-details">
+                	<h3><a href="https://arxiv.org/abs/1504.01840">Autonomous CRM Control via CLV Approximation with Deep Reinforcement Learning</a></h3>
+                	<p class='authors'>Yegor Tkachenko.&nbsp;&nbsp; arXiv.org 2015&nbsp;&nbsp; (technical report)</p>
+            	</div>
+        	</div>
+
+        	<div class="item ">
+            	<div class="item-details">
+                	<h3><a href="http://www.palgrave-journals.com/jma/journal/v2/n3/full/jma201414a.html">Optimal Allocation of Digital Marketing Budget: the Empirical Bayes Approach</a></h3>
+                	<p class='authors'>Yegor Tkachenko.&nbsp;&nbsp; Journal of Marketing Analytics 2014</p>
+            	</div>
+            	<img src="assets/media/paper_optimal_allocation.png" alt="Bayes net for initial data snapshot generation">
+        	</div>
+
+        	<div class="item">
+            	<div class="item-details">
+                	<h3><a href="https://ir.kneu.edu.ua/handle/2010/5605">Evaluation of Marketing Effectiveness: Modern Approaches and Methods</a></h3>
+                	<p class='authors'>Yegor Tkachenko.&nbsp;&nbsp; Journal of Marketing in Ukraine 2014</p>
+            	</div>
+        	</div>
+
+        	<div class="item">
+            	<div class="item-details">
+                	<h3><a href="https://academiccommons.columbia.edu/doi/10.7916/D87M06G5">Markov Clustering on Person-to-Person Similarity Graph: Attribution of Movies’ Box Office Results to Preferences of Viewer Communities</a></h3>
+                	<p class='authors'>Yegor Tkachenko.&nbsp;&nbsp; Columbia MS Thesis 2013</p>
+            	</div>
+            	<img src="assets/media/ms_thesis.png" alt="Markov clustering">
+        	</div>
+        </section>
+
+
+        <section id="software">
+            <h2>Pet Projects</h2>
+
+            <div class="item ">
+            	<div class="item-details">
+                	<h3><a href="https://www.firstimpression.ai/">Web App to Predict Personal Data From Facial Images</a></h3>
+                    <p><a href="https://www.firstimpression.ai/">www.firstimpression.ai</a></p>
+            	</div>
+            	<img src="assets/media/firstimpression.png" alt="First impression">
+        	</div>
+
+        	<div class="item">
+            	<div class="item-details">
+                	<h3><a href="https://www.passportsizephoto.com/">AI Passport Photo Maker</a></h3>
+                    <p><a href="https://www.passportsizephoto.com/">www.passportsizephoto.com</a></p>
+            	</div>
+            	<img src="assets/media/passportphotomaker.jpg" alt="First impression">
+        	</div>
+
+        	<div class="item">
+            	<div class="item-details">
+                	<h3><a href="https://gist.github.com/yegortk/ce18975200e7dffd1759125972cd54f4">Julia Implementation of OWL-QN Algorithm for Large-Scale L1-Regularized Sparse Convex Optimization</a></h3>
+            	</div>
+        	</div>
+
+        	<div class="item">
+            	<div class="item-details">
+                	<h3><a href="https://github.com/sisl/Chimp">Chimp – General Purpose Framework for Deep Reinforcement Learning</a></h3>
+            	</div>
+        	</div>
+
+        	<div class="item">
+            	<div class="item-details">
+                	<h3><a href="https://restaurantexplorer.herokuapp.com/">Interactive List of Only the Best NYC Venues</a></h3>
+                    <p><a href="https://restaurantexplorer.herokuapp.com/">restaurantexplorer.herokuapp.com</a></p>
+            	</div>
+        	</div>
+        </section>
+
+        <section id="books">
+            <h2>Books</h2>
+
+            <div class="item">
+            	<div class="item-details">
+                	<h3><a href="https://www.amazon.com/ENTREPRENEURS-BAD-ADVICE-How-Rich/dp/1733902287">Entrepreneur's Bad Advice: How to Get Rich</a></h3>
+                	<p class='authors'>Yegor Tkachenko, Margo Poda, Vasiliy Kondyrev. &nbsp;&nbsp; Amazon 2019</p>
+                	<p><a href="https://entrepreneursbadadvice.com/">www.entrepreneursbadadvice.com</a></p>
+            	</div>
+            	<img src="assets/media/book_BAD_ADVICE_15.jpg" alt="SoftBank">
+        	</div>
+        </section>
+
+        <section id="cases">
+            <h2>Cases</h2>
+
+            <div class="item">
+            	<div class="item-details">
+                	<h3><a href="https://store.hbr.org/product/all-nutrition-a-focus-group-research-for-market-segmentation/CU276">All Nutrition A: Focus Group Research for Market Segmentation</a></h3>
+                	<p class='authors'>Kamel Jedidi, Robert J. Morais, Yegor Tkachenko.&nbsp;&nbsp; Columbia CaseWorks 2019</p>
+            	</div>
+        	</div>
+
+        	<div class="item">
+            	<div class="item-details">
+                	<h3><a href="https://store.hbr.org/product/all-nutrition-b-quantitative-research-for-market-segmentation/CU277">All Nutrition B: Quantitative Research for Market Segmentation</a></h3>
+                	<p class='authors'>Kamel Jedidi, Robert J. Morais, Yegor Tkachenko.&nbsp;&nbsp; Columbia CaseWorks 2020</p>
+            	</div>
+        	</div>
+
+        	<div class="item">
+            	<div class="item-details">
+                	<h3><a href="https://www8.gsb.columbia.edu/caseworks/node/740">Teaching Note. All Nutrition (A&B)</a></h3>
+                	<p class='authors'>Kamel Jedidi, Robert J. Morais, Yegor Tkachenko.&nbsp;&nbsp; Columbia CaseWorks 2020</p>
+            	</div>
+        	</div>
+        </section>
+
+        <section id="chapters">
+            <h2>Chapters</h2>
+
+            <div class="item">
+            	<div class="item-details">
+                	<h3><a href="assets/compmrkt/sample_size_determination.pdf">Sample Size Determination</a></h3>
+                	<p class='authors'>Yegor Tkachenko.&nbsp;&nbsp; 2023</p>
+            	</div>
+        	</div>
+        </section>
+
+        <section id="tutorials">
+            <h2>Tutorials</h2>
+
+            <div class="item">
+            	<div class="item-details">
+                	<h3><a href="assets/r_tutorial/r_tutorial.html">Intro to R Programming</a></h3>
+                	<p class='authors'>Yegor Tkachenko.&nbsp;&nbsp; 2018</p>
+                	<p><a href="assets/r_tutorial/r_tutorial_raw.zip">Code</a></p>
+                	<p>As prepared by me for <a href='https://www.edx.org/course/marketing-analytics-columbiax-bamm-104x-0'>edX Marketing Analytics</a> course taught by Prof. Asim Ansari and Prof. Kamel Jedidi.</p>
+            	</div>
+        	</div>
+
+        	<div class="item">
+            	<div class="item-details">
+                	<h3><a href="assets/clv_opt/clv_opt.html">Logistic Regression for Churn Modeling and CLV Optimization</a></h3>
+                	<p class='authors'>Yegor Tkachenko.&nbsp;&nbsp; 2018</p>
+                	<p><a href="assets/clv_opt/clv_opt.Rmd">Code</a> | <a href="assets/clv_opt/telco_churn_data.csv">Data</a></p>
+                	<p>As prepared by me for <a href='https://www.edx.org/course/marketing-analytics-columbiax-bamm-104x-0'>edX Marketing Analytics</a> course taught by Prof. Asim Ansari and Prof. Kamel Jedidi.</p>
+            	</div>
+        	</div>
+        </section>
+
+
+        <section id="onlinearticles">
+            <h2>Online articles</h2>
+            <div class="item">
+            	<div class="item-details">
+                	<h3><a href="https://medium.com/@yegortk/gaping-hole-in-gdpr-2983b99b1a5">Loophole in GDPR Regulation</a></h3>
+                	<p class='authors'>Yegor Tkachenko.&nbsp;&nbsp; 2019</p>
+            	</div>
+        	</div>
+        </section>
+
+        <section id="misc">
+            <h2>Misc.</h2>
+            <div class="item dense noborder">
+                <div class="item-details">
+            	<p>The Car and the Pedestrian Experiment by Fons Trompenaars&nbsp;&nbsp; <a href="https://pdfs.semanticscholar.org/baa5/8e86493834d21459cba14437d8900542d666.pdf#page=46">pdf</a></p>
+            	<p>Stanford Marshmallow Experiment by Walter Mischel&nbsp;&nbsp; <a href="https://en.wikipedia.org/wiki/Stanford_marshmallow_experiment">wiki</a>&nbsp;&nbsp; <a href="http://science.sciencemag.org/content/244/4907/933.full.pdf">pdf</a></p>
+            	<p>Responsibility-for-Plant Experiment by Ellen J. Langer and Judith Rodin&nbsp;&nbsp; <a href="https://sites.duke.edu/niou/files/2012/04/Langer-Field-Experiment.pdf">pdf</a></p>
+            	<p>Basic Econometrics Lectures by Arne Hallam&nbsp;&nbsp; <a href="http://www2.econ.iastate.edu/classes/econ671/hallam/index.html">site</a></p>
+            	<p>Gaussian Components by Peter Orbanz &nbsp;&nbsp;<a href="http://stat.columbia.edu/~porbanz/teaching/UN3106S18/slides_18Jan.pdf#page=3">pdf</a></p>
+            	<p>CS231n Convolutional Neural Networks Course Notes by Andrej Karpathy&nbsp;&nbsp; <a href="http://cs231n.github.io/">site</a></p>
+            	<p>Information Cascades by David Easley and Jon Kleinberg&nbsp;&nbsp; <a href="http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch16.pdf">pdf</a></p>
+            	<p>Decision Making Under Uncertainty by Mykel J. Kochenderfer&nbsp;&nbsp; <a href="https://www.amazon.com/Decision-Making-Under-Uncertainty-Application/dp/0262029251">book</a></p>
+            	<p>Philosophy of Civilization by Albert Schweitzer&nbsp;&nbsp; <a href="https://www.amazon.com/Philosophy-Civilization-Albert-Schweitzer/dp/0879754036">book</a></p>
+            	<p>A Theory of Human Motivation by Abraham H. Maslow&nbsp;&nbsp; <a href="http://psychclassics.yorku.ca/Maslow/motivation.htm">text</a></p>
+            	<p>Eros and Civilization by Herbert Marcuse&nbsp;&nbsp; <a href="https://en.wikipedia.org/wiki/Eros_and_Civilization">wiki</a>&nbsp;&nbsp; <a href="https://www.amazon.com/Eros-Civilization-Philosophical-Inquiry-Freud/dp/0807015555">book</a></p>
+            	<p>Atlas Shrugged by Ayn Rand&nbsp;&nbsp; <a href="https://en.wikipedia.org/wiki/Atlas_Shrugged">wiki</a>&nbsp;&nbsp; <a href="https://www.amazon.com/Atlas-Shrugged-Ayn-Rand/dp/0451191145">book</a></p>
+            	<p>The Book of Ecclesiastes&nbsp;&nbsp; <a href="https://en.wikipedia.org/wiki/Ecclesiastes">wiki</a>&nbsp;&nbsp; <a href="http://biblescripture.net/Ecclesiastes.html">text</a></p>
+            	<p>List of Action Verbs for Resumes&nbsp;&nbsp; <a href="http://career.opcd.wfu.edu/files/2011/05/Action-Verbs-for-Resumes.pdf">pdf</a></p>
+            	<p>Convex Optimization by Stephen Boyd and Lieven Vandenberghe&nbsp;&nbsp; <a href="https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf">pdf</a></p>
+            	<p>Discrete Choice Methods with Simulation by Kenneth Train&nbsp;&nbsp; <a href="https://eml.berkeley.edu/books/train1201.pdf">pdf</a></p>
+            	<p>Harbingers of Failure by Eric Anderson et al.&nbsp;&nbsp; <a href="http://journals.ama.org/doi/10.1509/jmr.13.0415">text</a></p>
+            	<p>Big Five Inventory&nbsp;&nbsp; <a href="http://fetzer.org/sites/default/files/images/stories/pdf/selfmeasures/Personality-BigFiveInventory.pdf">pdf</a></p>
+            	<p>Reference Notes From Gyan's Research&nbsp;&nbsp; <a href='http://gyanresearch.wikidot.com/refa'>wiki</a></p>
+            	<p>Free Will Experiments by Benjamin Libet&nbsp;&nbsp; <a href="https://static1.squarespace.com/static/551587e0e4b0ce927f09707f/t/57b5d269e3df28ee5e93936f/1471533676258/Libet%2C+Do+We+Have+Free+Will%3F.pdf">pdf</a></p>
+            	<p>The Mind's Best Trick by Daniel M. Wegner&nbsp;&nbsp; <a href="https://scholar.harvard.edu/files/dwegner/files/minds_best_trick.pdf">pdf</a></p>
+            	<p>Conscious Mind by David Chalmers&nbsp;&nbsp; <a href="http://ghiraldelli.pro.br/wp-content/uploads/The-Conscious-Mind-Chalmers-David.pdf">pdf</a></p>
+            	<p>Breakdown of the Bicameral Mind by Julian Jaynes&nbsp;&nbsp; <a href="https://www.amazon.com/Origin-Consciousness-Breakdown-Bicameral-Mind/dp/0618057072">book</a></p>
+            	<p>CS168: The Modern Algorithmic Toolbox&nbsp;&nbsp; <a href="https://web.stanford.edu/class/cs168/index.html">site</a></p>
+            	<p>Compressed Sensing Illustration in Python&nbsp;&nbsp; <a href="http://www.pyrunner.com/weblog/2016/05/26/compressed-sensing-python/">site</a></p>
+            	<p>20 Simple Distinct Colors&nbsp;&nbsp; <a href="https://sashat.me/2017/01/11/list-of-20-simple-distinct-colors/">site</a></p>
+            	<p>Power and Sample Size Analysis Notes by Charles DiMaggio&nbsp;&nbsp; <a href="http://www.injuryepi.org/styled-4/code-12/">site</a></p>
+            	<p>Big Maс Index Generator by The Economist&nbsp;&nbsp; <a href="https://github.com/TheEconomist/big-mac-data/blob/master/Big%20Mac%20data%20generator.ipynb">code</a></p>
+            	<p>Top 50 matplotlib Visualizations&nbsp;&nbsp; <a href="https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/">site</a></p>
+            	<p>Humans May Sense Earth's Magnetic Field by Kelly Servick&nbsp;&nbsp; <a href="http://science.sciencemag.org/content/363/6433/1257/tab-pdf">pdf</a></p>
+            	<p>A Classroom Demonstration of Gullibility by Bertram R. Forer&nbsp;&nbsp; <a href="http://apsychoserver.psych.arizona.edu/jjbareprints/psyc621/forer_the%20fallacy%20of%20personal%20validation_1949.pdf">pdf</a></p>
+            	<p>Intuitive Explanation of Discrete Fourier Transform as Correlation Analysis&nbsp;&nbsp; <a href="http://practicalcryptography.com/miscellaneous/machine-learning/intuitive-guide-discrete-fourier-transform/">site</a></p>
+            	<p>Make Matplotlib Plot Fonts Look Good With LaTeX&nbsp;&nbsp; <a href="https://stackoverflow.com/questions/33942210/consistent-fonts-between-matplotlib-and-latex">site</a></p>
+            </div>
+            </div>
+        </section>
+
+    </main>
+
+
+<footer>
+	&copy; 2024 Yegor Tkachenko All Rights Reserved
+</footer>
+
+</body>
+</html>

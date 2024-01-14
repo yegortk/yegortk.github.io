@@ -1,0 +1,187 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body and Overall Layout */
+body {
+    font-family: 'Source Sans 3', 'Arial', sans-serif; 
+    color: #000000;
+    background-color: white;
+    margin: 20px 10%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+footer {
+    text-align: left;
+    margin-top: 6em;
+    margin-bottom: 2em;
+}
+
+/* Header Styles */
+header {
+    text-align: left;
+    margin-bottom: 2em;
+    padding-top: 1em;
+}
+
+header img {
+    width: 300px; /* You might want to make this responsive instead of fixed width */
+    /* border-radius: 50%; */ /* Circular image */
+}
+
+header h1 {
+    color: #BC0E1C;
+    margin: 1.0em 0;
+    font-size: 32px;
+    font-family: 'EB Garamond', 'Cormorant Garamond', 'Georgia', serif, 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: left;
+    gap: 16px; /* Adjust space between links */
+    margin-bottom: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #0065bf;
+}
+
+/* Main Content Styles */
+main {
+    text-align: left;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+	font-size: 32px;
+    margin-bottom: 5px;
+    padding-top: 0px;
+    font-family: 'Cormorant Garamond', 'EB Garamond', 'Georgia', serif, 'Arial', sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+	font-size: 15px;
+    font-family: 'Source Sans 3', 'Arial', sans-serif;
+    font-weight: 600;
+}
+
+p, li {
+    margin-bottom: 1.0em;
+}
+
+/* Utility Classes */
+.title {
+    font-style: italic;
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+}
+
+li {
+    line-height: 1.5em;
+}
+
+/* Link Styles */
+a {
+    color: #0065bf;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0065bf;
+}
+
+h3 a {
+   color: #000000;
+/*   text-decoration: underline 0.5px;*/
+   text-decoration-color: #0065bf;
+   text-underline-offset: 5px;
+}
+
+/* Style for each paper */
+.item {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.noborder {
+    border: 0px;
+    padding-left: 0;
+}
+
+
+.lgimg {
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start in column layout */
+}
+
+.item img {
+    max-width: 300px; /* Adjust size as needed */
+    max-height: 225px;
+    height: auto;
+    margin-left: 30px;
+}
+
+.lgimg img {
+    width: 375px; /* Adjust size as needed */
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.item-details {
+    flex: 1;
+}
+
+.item-details h3 {
+	margin-top: 0;
+    margin-bottom: 7px;
+}
+
+.item-details p {
+    margin-bottom: 0px;
+}
+
+.authors {
+    /*	font-weight: bold;*/
+}
+
+.dense p {
+    margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+    .item {
+        flex-direction: column;
+        align-items: flex-start; /* Align items to the start in column layout */
+    }
+    
+    .item img {
+        /* width: 40%; */ /* Make the image full width in mobile view */
+        margin-top: 20px; /* Add margin at the bottom */
+        margin-left: 0; /* Remove margin-right */
+    }
+}
