@@ -169,6 +169,11 @@ h3 a {
     /*	font-weight: bold;*/
 }
 
+.abstract {
+    font-style: italic; 
+    margin-top: 5px;
+}
+
 .dense p {
     margin-bottom: 0px;
 }
