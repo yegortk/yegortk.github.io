@@ -174,6 +174,12 @@ h3 a {
     margin-top: 5px;
 }
 
+.venue {
+/*    color: #006500;*/
+/*    font-style: italic; */
+    margin-left: 5px;   
+}
+
 .dense p {
     margin-bottom: 0px;
 }
