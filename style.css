@@ -6,7 +6,7 @@ body, h1, h2, p, ul, li, a {
 
 /* Body and Overall Layout */
 body {
-    font-family: 'Source Sans 3', 'Arial', sans-serif; 
+    font-family: 'Source Sans 3', system-ui, sans-serif; 
     color: #000000;
     background-color: white;
     margin: 20px 10%;
